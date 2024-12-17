@@ -15,3 +15,22 @@ button{
     background-color: rgb(90, 183, 152);
     
 }
+
+#dis1{
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+}
+
+.style{
+
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgb(203, 97, 97);
+}
+
+img{
+
+    width: 150px;
+}
