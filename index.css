@@ -32,5 +32,19 @@ button{
 
 img{
 
-    width: 150px;
+    width: 300px;
+}
+
+#dis2{
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+}
+
+.style2{
+
+    background-color: rgb(83, 200, 230);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgb(97, 192, 203);
 }

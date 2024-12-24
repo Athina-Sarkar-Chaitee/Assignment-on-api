@@ -11,6 +11,8 @@ function find() {
 function find2(data) {
     let disArea = document.getElementById("dis1");
     disArea.textContent = "";
+    let disArea2 = document.getElementById("dis2");
+    disArea2.textContent = "";
 
     for (let i = 0; i < data.length; i++) {
         let newDiv = document.createElement("div");
@@ -36,7 +38,7 @@ function weather(capital) {
 
 function weather2(data2) {
     let disArea2 = document.getElementById("dis2");
-    disArea2.textContent = ""; // Clear the previous weather info
+    disArea2.textContent = ""; 
 
     let newDiv2 = document.createElement("div");
     newDiv2.innerHTML = `Capital: ${data2.location.name} <br> 
