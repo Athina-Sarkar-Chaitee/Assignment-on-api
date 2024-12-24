@@ -29,7 +29,7 @@ function find2(data) {
 }
 
 function weather(capital) {
-    let url = `http://api.weatherapi.com/v1/current.json?key=5ebcc74ed0da4ce68ea85758240312&q=${capital}&aqi=no`;
+    let url = `https://api.weatherapi.com/v1/current.json?key=5ebcc74ed0da4ce68ea85758240312&q=${capital}&aqi=no`;
 
     fetch(url)
         .then(res2 => res2.json())
